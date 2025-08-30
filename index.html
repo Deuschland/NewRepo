@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пошук тарифу</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h2>Виберіть значення</h2>
+
+<div style="display: flex; align-items: center; gap: 40px;">
+
+  <label for="selectE">E:</label>
+  <select id="selectE"></select>
+<br>
+<br>
+  <label for="selectF">VAR_3:</label>
+  <select id="selectF"></select>
+
+  </div>
+
+<br>
+<br>
+  <button onclick="findResult()">Знайти</button>
+
+  <p id="output">Res: —</p>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
